@@ -1,0 +1,317 @@
+.полоса {
+  border: 3px solid dodgerblue;
+}
+#полоса {
+  margin-left: 10cm;
+}
+#img {
+  position: relative;
+  left: 10cm;
+  border-radius: 30px;
+}
+.parent {
+color: black;
+text-align: center;
+font-family:  'arial';
+font-size: 40px;
+}
+.all {
+  width: 25cm;
+}
+.alll {
+  width: 35cm;
+  display: inline-block;
+  position: relative;
+  left: 10cm;
+  right: 6cm;
+}
+.text {
+  box-sizing: border-box;
+  color: black;
+  font-family:  'arial';
+  font-size: 24px;
+  position: relative;
+}
+.строка {
+  transition: 0.7s;
+  box-sizing: border-box;
+  width: 340px;
+  font-family:  'arial', serif;
+  font-size: 24px;
+  border: 4px solid dodgerblue;
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  bottom: 6cm;
+  left: 0.7cm;
+  border-radius: 30px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: blue;
+}
+.строка:hover {
+  background-color: #6bcafa;
+  color: blue;
+}
+#введение {
+  margin-left: 2cm;
+  font-family:  'arial';
+  font-size: 34px;
+}
+#виды {
+  margin-left: 2cm;
+  font-family:  'arial';
+  font-size: 34px;
+}
+#тест {
+  margin-left: 2cm;
+  font-family:  'arial';
+  font-size: 34px;
+}
+.заголовок {
+  margin-left: 1cm;
+}
+.главный {
+  font-size: 32px;
+}
+.список {
+  font-size: 22px;
+}
+.подтекст {
+  transition: background-color 0.6s, width 0.6s;
+  position: absolute;
+  overflow: hidden;
+  display: inline-block;
+  padding: 12px;
+  width: 2px;
+  max-height: 112px;
+  border-color: transparent;
+  opacity: 0;
+  background-color: transparent;
+}
+.button.active + .подтекст {
+  background-color: dodgerblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 21cm;
+  opacity: 100%;
+  border-color: black;
+}
+.button:hover {
+  background-color: #0e1af0;
+}
+.button {
+  transition: 0.3s;
+  border-color: black;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 136px;
+  background-color: dodgerblue;
+  padding-left: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+.picture {
+  position: absolute;
+  border-radius: 10px;
+  border: 4px solid, dodgerblue;
+}
+#работа {
+  top: 0.45cm;
+  left: 25.5cm;
+}
+#лотерея {
+  top: 15.45cm;
+  left: 25.5cm;
+}
+#деньги {
+  top: 30cm;
+  left: 25.5cm;
+}
+#благо {
+  top: 47cm;
+  left: 25.5cm;
+}
+#тех {
+  top: 58.5cm;
+  left: 24cm;
+}
+#соц {
+  top: 72.5cm;
+  left: 24cm;
+}
+#соцс {
+  top: 82.5cm;
+  left: 24cm;
+}
+#голос {
+  top: 98cm;
+  left: 23.75cm;
+}
+#смс {
+  top: 107cm;
+  left: 25.15cm;
+}
+#магаз {
+  top: 123.5cm;
+  left: 24cm;
+}
+.текст {
+  max-width: 25cm;
+  height: 112px;
+}
+.работа {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 500px;
+  padding: 15px;
+}
+.работа:hover {
+  background-color: #6bcafa;
+}
+.лотерея {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 470px;
+  padding: 15px;
+}
+.лотерея:hover {
+  background-color: #6bcafa;
+}
+.деньги {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 500px;
+  padding: 15px;
+}
+.деньги:hover {
+  background-color: #6bcafa;
+}
+.благо {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 440px;
+  padding: 15px;
+}
+.благо:hover {
+  background-color: #6bcafa;
+}
+.тех {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 470px;
+  padding: 15px;
+}
+.тех:hover {
+  background-color: #6bcafa;
+}
+.соц {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 640px;
+  padding: 15px;
+}
+.соц:hover {
+  background-color: #6bcafa;
+}
+.голос {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 500px;
+  padding: 15px;
+}
+.голос:hover {
+  background-color: #6bcafa;
+}
+.смс {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 500px;
+  padding: 15px;
+}
+.смс:hover {
+  background-color: #6bcafa;
+}
+.магаз {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 33cm;
+  height: 440px;
+  padding: 15px;
+}
+.магаз:hover {
+  background-color: #6bcafa;
+}
+.проблема {
+  width: 25cm;
+}
+.проблема1 {
+  width: 23cm;
+}
+.number {
+  display: inline-block;
+  box-sizing: border-box;
+  color: black;
+  font-family:  'arial';
+  font-size: 24px;
+  position: relative;
+}
+#q {
+  font-size: 26px;
+  margin-left: 10px;
+}
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+#верно {
+  accent-color: green;
+}
+.a {
+  display: inline-block;
+  box-sizing: border-box;
+  color: black;
+  font-family:  'arial';
+  font-size: 24px;
+  position: relative;
+}
+#end {
+  width: 35cm;
+}
+.вопрос {
+  transition: 0.5s;
+  border: 6px solid, dodgerblue;
+  border-radius: 30px;
+  width: 35cm;
+  height: 1120px;
+  padding: 15px;
+}
+.вопрос:hover {
+  background-color: #6bcafa;
+}
